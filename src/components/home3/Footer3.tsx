@@ -13,15 +13,15 @@ export default function Footer3() {
               </div>
               <div>
                 <span className="text-xl font-bold tracking-tight text-white flex items-center gap-1">
-                  PureHaven<span className="text-[#c25e3e]">Living</span>
+                  Complete Building <span className="text-[#c25e3e]">Maintenance</span>
                 </span>
                 <span className="text-[11px] font-cursive text-stone-400 block -mt-1 text-sm">
-                  boutique family sanctuary
+                  family home sanctuary
                 </span>
               </div>
             </div>
             <p className="text-xs sm:text-sm text-stone-400 max-w-sm leading-relaxed">
-              Thoughtful, boutique residential cleaning crafted for families, pets, and homes that deserve gentle care.
+              Thoughtful residential cleaning crafted for families, pets, and homes that deserve gentle care.
               Bringing calm and time back to your family life.
             </p>
             <div className="flex items-center gap-2 text-xs text-[#c25e3e] font-semibold bg-[#FAF7F2]/10 border border-[#c25e3e]/30 p-2.5 rounded-xl w-fit">
@@ -66,11 +66,11 @@ export default function Footer3() {
             <ul className="space-y-3 text-xs sm:text-sm text-stone-400">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-[#c25e3e] shrink-0" />
-                <span className="font-semibold text-white">(800) 412-HAVEN</span>
+                <a href="tel:8016873000" className="font-semibold text-white hover:text-[#c25e3e] transition-colors">801-687-3000</a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#c25e3e] shrink-0" />
-                <span>care@purehavenliving.com</span>
+                <a href="mailto:cbmorem@hotmail.com" className="hover:text-[#c25e3e] transition-colors">cbmorem@hotmail.com</a>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-[#c25e3e] shrink-0" />
@@ -81,7 +81,7 @@ export default function Footer3() {
         </div>
 
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-4">
-          <p>© {new Date().getFullYear()} PureHaven Living Boutique Care. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Complete Building Maintenance. All rights reserved.</p>
           <div className="flex items-center gap-1.5 text-stone-400">
             <span>Made with warm hearts</span>
             <Sparkles className="w-3.5 h-3.5 text-[#c25e3e]" />

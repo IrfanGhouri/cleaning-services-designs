@@ -49,12 +49,12 @@ export default function Navbar2() {
                 <Building2 className="w-5 h-5 text-white" />
               </div>
               <div>
-                <span className="text-xl font-black tracking-wider uppercase text-white flex items-center gap-1.5">
-                  Apex<span className="text-blue-500">Facility</span>
+                <span className="text-base sm:text-lg font-black tracking-wider uppercase text-white flex items-center gap-1.5">
+                  Complete Building <span className="text-blue-500">Maintenance</span>
                 </span>
-                <div className="flex items-center gap-1.5 text-[9px] uppercase tracking-widest text-slate-400 font-semibold -mt-1 font-mono">
+                <div className="flex items-center gap-1.5 text-[9px] uppercase tracking-widest text-slate-400 font-semibold -mt-0.5 font-mono">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-                  <span>24/7 Operations</span>
+                  <span>Facility Operations 24/7</span>
                 </div>
               </div>
             </Link>
@@ -75,13 +75,13 @@ export default function Navbar2() {
             {/* Action Buttons */}
             <div className="hidden sm:flex items-center gap-5">
               <a
-                href="tel:8887002739"
+                href="tel:8016873000"
                 className="flex items-center gap-2 text-xs font-bold text-slate-200 hover:text-blue-400 transition-colors"
               >
                 <div className="w-7 h-7 rounded-lg bg-slate-800 flex items-center justify-center text-blue-400 border border-slate-700">
                   <Phone className="w-3.5 h-3.5" />
                 </div>
-                <span>(888) 700-APEX</span>
+                <span>801-687-3000</span>
               </a>
 
               <a
@@ -121,7 +121,7 @@ export default function Navbar2() {
                     <Building2 className="w-4 h-4" />
                   </div>
                   <span className="font-black text-sm uppercase tracking-wider text-white">
-                    Apex Facility Pro
+                    Complete Building Maintenance
                   </span>
                 </div>
                 <button
@@ -163,13 +163,20 @@ export default function Navbar2() {
               </div>
             </div>
 
-            <div className="space-y-3 pt-4 border-t border-slate-800">
+            <div className="space-y-2 pt-4 border-t border-slate-800">
               <a
-                href="tel:8887002739"
+                href="tel:8016873000"
                 className="w-full py-3 rounded-xl border border-slate-800 bg-slate-900 text-white font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2"
               >
                 <Phone className="w-4 h-4 text-blue-400" />
-                <span>Call (888) 700-APEX</span>
+                <span>Call 801-687-3000</span>
+              </a>
+
+              <a
+                href="mailto:cbmorem@hotmail.com"
+                className="w-full py-1.5 text-center text-xs text-slate-400 hover:text-blue-400 block font-mono"
+              >
+                cbmorem@hotmail.com
               </a>
 
               <a

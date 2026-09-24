@@ -12,7 +12,7 @@ export default function Footer2() {
                 <Building2 className="w-5 h-5" />
               </div>
               <span className="text-xl font-black uppercase tracking-wider text-white">
-                Apex<span className="text-blue-500">Facility</span> Pro
+                Complete Building <span className="text-blue-500">Maintenance</span>
               </span>
             </div>
             <p className="text-xs sm:text-sm text-slate-400 max-w-sm leading-relaxed">
@@ -37,11 +37,11 @@ export default function Footer2() {
               Enterprise Services
             </h4>
             <ul className="space-y-2.5 text-xs sm:text-sm text-slate-400">
-              <li><a href="#matrix" className="hover:text-blue-400 transition-colors">On-Site Day Porter Staffing</a></li>
-              <li><a href="#matrix" className="hover:text-blue-400 transition-colors">Corporate Office Janitorial</a></li>
-              <li><a href="#matrix" className="hover:text-blue-400 transition-colors">Multi-Family Unit Turnaround</a></li>
-              <li><a href="#matrix" className="hover:text-blue-400 transition-colors">Electrostatic Disinfection</a></li>
-              <li><a href="#matrix" className="hover:text-blue-400 transition-colors">Commercial Hot Water Extraction</a></li>
+              <li><a href="#services" className="hover:text-blue-400 transition-colors">On-Site Day Porter Staffing</a></li>
+              <li><a href="#services" className="hover:text-blue-400 transition-colors">Corporate Office Janitorial</a></li>
+              <li><a href="#services" className="hover:text-blue-400 transition-colors">Multi-Family Unit Turnaround</a></li>
+              <li><a href="#services" className="hover:text-blue-400 transition-colors">Electrostatic Disinfection</a></li>
+              <li><a href="#services" className="hover:text-blue-400 transition-colors">Commercial Hot Water Extraction</a></li>
             </ul>
           </div>
 
@@ -67,11 +67,11 @@ export default function Footer2() {
             <ul className="space-y-3 text-xs sm:text-sm text-slate-400">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-blue-400 shrink-0" />
-                <span className="font-mono font-bold text-white">(888) 700-APEX</span>
+                <a href="tel:8016873000" className="font-mono font-bold text-white hover:text-blue-400 transition-colors">801-687-3000</a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-blue-400 shrink-0" />
-                <span>contracts@apexfacility.com</span>
+                <a href="mailto:cbmorem@hotmail.com" className="hover:text-blue-400 transition-colors">cbmorem@hotmail.com</a>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-blue-400 shrink-0" />
@@ -82,7 +82,7 @@ export default function Footer2() {
         </div>
 
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <p>© {new Date().getFullYear()} Apex Commercial Facility Pro Inc. Master Janitorial Contractor.</p>
+          <p>© {new Date().getFullYear()} Complete Building Maintenance. Master Janitorial Contractor. All rights reserved.</p>
           <div className="flex items-center gap-4 text-slate-400">
             <span className="hover:text-white cursor-pointer">Terms of Service</span>
             <span>•</span>

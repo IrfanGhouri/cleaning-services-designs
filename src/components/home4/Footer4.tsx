@@ -12,7 +12,7 @@ export default function Footer4() {
                 <Sparkles className="w-5 h-5" />
               </div>
               <span className="text-xl font-black uppercase tracking-wider text-white">
-                Crystal<span className="text-blue-500">Shine</span> Pro
+                Complete Building <span className="text-blue-500">Maintenance</span>
               </span>
             </div>
             <p className="text-xs sm:text-sm text-slate-400 max-w-sm leading-relaxed">
@@ -60,11 +60,11 @@ export default function Footer4() {
             <ul className="space-y-3 text-xs sm:text-sm text-slate-400">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-blue-400 shrink-0" />
-                <span className="font-bold text-white">(800) 888-SHINE</span>
+                <a href="tel:8016873000" className="font-bold text-white hover:text-blue-400 transition-colors">801-687-3000</a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-blue-400 shrink-0" />
-                <span>support@crystalshineclean.com</span>
+                <a href="mailto:cbmorem@hotmail.com" className="hover:text-blue-400 transition-colors">cbmorem@hotmail.com</a>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-blue-400 shrink-0" />
@@ -75,7 +75,7 @@ export default function Footer4() {
         </div>
 
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <p>© {new Date().getFullYear()} CrystalShine Pro Deep Cleaning Inc. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Complete Building Maintenance. All rights reserved.</p>
           <div className="flex items-center gap-3 text-slate-400">
             <span>Licensed & Insured</span>
             <span>•</span>

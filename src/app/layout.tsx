@@ -26,9 +26,9 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Premier Cleaning Services | 4 Signature Homepage Experiences",
+  title: "Complete Building Maintenance | 801-687-3000 | Commercial & Residential Cleaning",
   description:
-    "Expert carpet cleaning, office cleaning, residential cleaning, day porter services, deep disinfection, and multi-family turnovers.",
+    "Complete Building Maintenance provides expert carpet cleaning, office cleaning, residential cleaning, day porter services, deep disinfection, and multi-family turnovers. Contact: 801-687-3000 | cbmorem@hotmail.com.",
 };
 
 export default function RootLayout({

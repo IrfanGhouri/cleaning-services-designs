@@ -49,11 +49,11 @@ export default function Navbar3() {
                 <HeartHandshake className="w-5 h-5" />
               </div>
               <div>
-                <span className="text-xl font-bold tracking-tight text-[#2C221E] flex items-center gap-1">
-                  PureHaven<span className="text-[#c25e3e]">Living</span>
+                <span className="text-base sm:text-lg font-bold tracking-tight text-[#2C221E] flex items-center gap-1">
+                  Complete Building <span className="text-[#c25e3e]">Maintenance</span>
                 </span>
                 <span className="text-[11px] font-cursive text-[#c25e3e] block -mt-1 font-semibold text-base">
-                  boutique family sanctuary
+                  CBM • family home sanctuary
                 </span>
               </div>
             </Link>
@@ -74,13 +74,13 @@ export default function Navbar3() {
             {/* Action Buttons */}
             <div className="hidden sm:flex items-center gap-5">
               <a
-                href="tel:8004128933"
+                href="tel:8016873000"
                 className="flex items-center gap-2 text-xs font-semibold text-[#2C221E] hover:text-[#c25e3e] transition-colors"
               >
                 <div className="w-7 h-7 rounded-full bg-[#fbece7] flex items-center justify-center text-[#c25e3e]">
                   <Phone className="w-3.5 h-3.5" />
                 </div>
-                <span>(800) 412-HAVEN</span>
+                <span>801-687-3000</span>
               </a>
 
               <a
@@ -120,9 +120,9 @@ export default function Navbar3() {
                     <HeartHandshake className="w-4 h-4" />
                   </div>
                   <div>
-                    <span className="font-bold text-[#2C221E]">PureHaven Living</span>
-                    <span className="text-[10px] font-cursive block text-[#c25e3e] -mt-1 font-semibold text-sm">
-                      family sanctuary
+                    <span className="font-bold text-[#2C221E] text-sm">Complete Building Maintenance</span>
+                    <span className="text-[10px] font-cursive block text-[#c25e3e] -mt-0.5 font-semibold text-sm">
+                      family home sanctuary
                     </span>
                   </div>
                 </div>
@@ -150,7 +150,7 @@ export default function Navbar3() {
 
               <div className="mt-6 p-4 rounded-2xl bg-[#fbece7]/60 border border-[#f6d7cd] space-y-2">
                 <p className="text-xs font-bold uppercase tracking-wider text-[#c25e3e]">
-                  The PureHaven Promise
+                  The CBM Promise
                 </p>
                 <p className="text-xs text-[#2C221E]/80 leading-relaxed">
                   We assign the exact same trusted cleaner to your family home on every recurring schedule.
@@ -158,13 +158,20 @@ export default function Navbar3() {
               </div>
             </div>
 
-            <div className="space-y-3 pt-4 border-t border-[#F3ECE2]">
+            <div className="space-y-2 pt-4 border-t border-[#F3ECE2]">
               <a
-                href="tel:8004128933"
+                href="tel:8016873000"
                 className="w-full py-3 rounded-xl border border-[#c25e3e]/30 text-[#2C221E] font-semibold text-sm flex items-center justify-center gap-2"
               >
                 <Phone className="w-4 h-4 text-[#c25e3e]" />
-                <span>Call (800) 412-HAVEN</span>
+                <span>Call 801-687-3000</span>
+              </a>
+
+              <a
+                href="mailto:cbmorem@hotmail.com"
+                className="w-full py-1.5 text-center text-xs text-stone-500 hover:text-[#c25e3e] block font-medium"
+              >
+                cbmorem@hotmail.com
               </a>
 
               <a

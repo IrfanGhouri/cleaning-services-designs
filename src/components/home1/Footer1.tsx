@@ -13,7 +13,7 @@ export default function Footer1() {
                 <Sparkles className="w-5 h-5 text-emerald-100" />
               </div>
               <span className="text-xl font-extrabold text-white">
-                Lumina<span className="text-emerald-400">Clean</span>
+                Complete Building <span className="text-emerald-400">Maintenance</span>
               </span>
             </div>
             <p className="text-xs sm:text-sm text-slate-400 max-w-sm leading-relaxed">
@@ -62,11 +62,11 @@ export default function Footer1() {
             <ul className="space-y-3 text-xs sm:text-sm text-slate-400">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
-                <span>(800) 555-MINT</span>
+                <a href="tel:8016873000" className="hover:text-white transition-colors">801-687-3000</a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-emerald-400 shrink-0" />
-                <span>concierge@luminaclean.com</span>
+                <a href="mailto:cbmorem@hotmail.com" className="hover:text-white transition-colors">cbmorem@hotmail.com</a>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-emerald-400 shrink-0" />
@@ -78,7 +78,7 @@ export default function Footer1() {
 
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <p>© {new Date().getFullYear()} Lumina Clean Living Inc. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Complete Building Maintenance. All rights reserved.</p>
           <div className="flex items-center gap-1">
             <span>Crafted with</span>
             <Heart className="w-3.5 h-3.5 text-emerald-500 fill-emerald-500" />

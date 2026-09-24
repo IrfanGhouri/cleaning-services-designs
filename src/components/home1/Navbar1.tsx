@@ -49,11 +49,11 @@ export default function Navbar1() {
                 <Sparkles className="w-5 h-5 text-emerald-100" />
               </div>
               <div>
-                <span className="text-xl font-extrabold tracking-tight text-slate-900 flex items-center gap-1">
-                  Lumina<span className="text-emerald-600">Clean</span>
+                <span className="text-base sm:text-lg font-extrabold tracking-tight text-slate-900 flex items-center gap-1">
+                  Complete Building <span className="text-emerald-600">Maintenance</span>
                 </span>
-                <span className="text-[10px] tracking-wider uppercase font-semibold text-emerald-800 block -mt-1">
-                  Eco-Pure Living
+                <span className="text-[10px] tracking-wider uppercase font-semibold text-emerald-800 block -mt-0.5">
+                  Eco-Pure Care
                 </span>
               </div>
             </Link>
@@ -74,13 +74,13 @@ export default function Navbar1() {
             {/* Action Buttons */}
             <div className="hidden sm:flex items-center gap-5">
               <a
-                href="tel:8005556468"
+                href="tel:8016873000"
                 className="flex items-center gap-2 text-xs font-semibold text-slate-700 hover:text-emerald-700 transition-colors"
               >
                 <div className="w-7 h-7 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600">
                   <Phone className="w-3.5 h-3.5" />
                 </div>
-                <span>(800) 555-MINT</span>
+                <span>801-687-3000</span>
               </a>
 
               <a
@@ -119,7 +119,9 @@ export default function Navbar1() {
                   <div className="w-8 h-8 rounded-xl bg-emerald-600 flex items-center justify-center text-white">
                     <Sparkles className="w-4 h-4 text-emerald-100" />
                   </div>
-                  <span className="font-bold text-slate-900">LuminaClean</span>
+                  <span className="font-extrabold text-sm text-slate-900">
+                    Complete Building Maintenance
+                  </span>
                 </div>
                 <button
                   onClick={() => setMobileMenuOpen(false)}
@@ -164,13 +166,20 @@ export default function Navbar1() {
               </div>
             </div>
 
-            <div className="space-y-3 pt-4 border-t border-slate-100">
+            <div className="space-y-2 pt-4 border-t border-slate-100">
               <a
-                href="tel:8005556468"
+                href="tel:8016873000"
                 className="w-full py-3 rounded-xl border border-slate-200 text-slate-800 font-semibold text-sm flex items-center justify-center gap-2"
               >
                 <Phone className="w-4 h-4 text-emerald-600" />
-                <span>Call (800) 555-MINT</span>
+                <span>Call 801-687-3000</span>
+              </a>
+
+              <a
+                href="mailto:cbmorem@hotmail.com"
+                className="w-full py-1.5 text-center text-xs text-slate-500 hover:text-emerald-600 block font-medium"
+              >
+                cbmorem@hotmail.com
               </a>
 
               <a

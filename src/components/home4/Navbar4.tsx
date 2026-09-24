@@ -49,11 +49,11 @@ export default function Navbar4() {
                 <Sparkles className="w-5 h-5 text-white" />
               </div>
               <div>
-                <span className="text-xl font-black tracking-tight text-slate-900 flex items-center gap-1">
-                  Crystal<span className="text-blue-600">Shine</span> Pro
+                <span className="text-base sm:text-lg font-black tracking-tight text-slate-900 flex items-center gap-1">
+                  Complete Building <span className="text-blue-600">Maintenance</span>
                 </span>
-                <span className="text-[10px] tracking-wider uppercase font-bold text-slate-500 block -mt-1 font-mono">
-                  Deep & Turnover Cleaning
+                <span className="text-[10px] tracking-wider uppercase font-bold text-slate-500 block -mt-0.5 font-mono">
+                  Deep Clean & Turnover Pro
                 </span>
               </div>
             </Link>
@@ -74,13 +74,13 @@ export default function Navbar4() {
             {/* Action Buttons */}
             <div className="hidden sm:flex items-center gap-5">
               <a
-                href="tel:8008889123"
+                href="tel:8016873000"
                 className="flex items-center gap-2 text-xs font-bold text-slate-700 hover:text-blue-600 transition-colors"
               >
                 <div className="w-7 h-7 rounded-lg bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-600">
                   <Phone className="w-3.5 h-3.5" />
                 </div>
-                <span>(800) 888-SHINE</span>
+                <span>801-687-3000</span>
               </a>
 
               <a
@@ -120,7 +120,7 @@ export default function Navbar4() {
                     <Sparkles className="w-4 h-4 text-white" />
                   </div>
                   <span className="font-bold text-sm tracking-wider uppercase text-slate-900">
-                    CrystalShine Pro
+                    Complete Building Maintenance
                   </span>
                 </div>
                 <button
@@ -155,13 +155,20 @@ export default function Navbar4() {
               </div>
             </div>
 
-            <div className="space-y-3 pt-4 border-t border-slate-100">
+            <div className="space-y-2 pt-4 border-t border-slate-100">
               <a
-                href="tel:8008889123"
+                href="tel:8016873000"
                 className="w-full py-3 rounded-xl border border-slate-200 text-slate-800 font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2"
               >
                 <Phone className="w-4 h-4 text-blue-600" />
-                <span>Call (800) 888-SHINE</span>
+                <span>Call 801-687-3000</span>
+              </a>
+
+              <a
+                href="mailto:cbmorem@hotmail.com"
+                className="w-full py-1.5 text-center text-xs text-slate-500 hover:text-blue-600 block font-mono"
+              >
+                cbmorem@hotmail.com
               </a>
 
               <a
